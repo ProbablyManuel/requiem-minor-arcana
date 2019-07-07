@@ -1,0 +1,24 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
+	<moduleName>Requiem - Minor Arcana</moduleName>
+	<installSteps order="Explicit">
+		<installStep name="Requiem - Minor Arcana">
+			<optionalFileGroups order="Explicit">
+				<group name="Requiem - Minor Arcana" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="Requiem - Minor Arcana">
+							<description>Core mod
+							</description>
+							<image path="Fomod\screenshots.jpg"/>
+							<files>
+								<folder source="Core" destination=""/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+	</installSteps>
+</config>
