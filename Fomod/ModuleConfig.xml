@@ -8,7 +8,6 @@
 						<plugin name="Roleplaying Improvements">
 							<description>Various indispensable roleplaying improvements.
 							</description>
-							<image path="Fomod\screenshots.jpg"/>
 							<files>
 								<folder source="Roleplaying Improvements" destination=""/>
 							</files>
@@ -19,7 +18,6 @@
 						<plugin name="Healing Poultice">
 							<description>Healing poultices can be made with mead as well. Alchemy level 30 or greater reduces floral ingredients by one, Catalysis by another one. The note is rewritten to fit on a single page.
 							</description>
-							<image path="Fomod\screenshots.jpg"/>
 							<files>
 								<folder source="Healing Poultice" destination=""/>
 							</files>
