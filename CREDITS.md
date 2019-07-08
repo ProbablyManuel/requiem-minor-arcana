@@ -1,0 +1,4 @@
+-Axonis for [Requiem - Minor Arcana](https://www.nexusmods.com/skyrim/mods/72865)
+-Metalfenix for [Forsworn BriarHeart Armor](https://www.nexusmods.com/skyrim/mods/31512)
+-RJinthematrix for [Hired Thugs Fixed](https://www.nexusmods.com/skyrim/mods/73811)
+-Garthand for [Aringoth Race Fix](https://www.nexusmods.com/skyrim/mods/72225)
