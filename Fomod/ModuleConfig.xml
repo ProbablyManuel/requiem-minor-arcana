@@ -10,7 +10,7 @@
 							</description>
 							<image path="Fomod\screenshots.jpg"/>
 							<files>
-								<folder source="Core" destination=""/>
+								<folder source="Roleplaying Improvements" destination=""/>
 							</files>
 							<typeDescriptor>
 								<type name="Optional"/>
