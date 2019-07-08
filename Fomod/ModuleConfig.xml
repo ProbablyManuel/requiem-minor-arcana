@@ -3,14 +3,25 @@
 	<installSteps order="Explicit">
 		<installStep name="Requiem - Minor Arcana">
 			<optionalFileGroups order="Explicit">
-				<group name="Requiem - Minor Arcana" type="SelectAny">
+				<group name="Modules" type="SelectAny">
 					<plugins order="Explicit">
-						<plugin name="Requiem - Minor Arcana">
-							<description>Core mod
+						<plugin name="Roleplaying Improvements">
+							<description>Various indispensable roleplaying improvements.
 							</description>
 							<image path="Fomod\screenshots.jpg"/>
 							<files>
 								<folder source="Core" destination=""/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Healing Poultice">
+							<description>Healing poultices can be made with mead as well. Alchemy level 30 or greater reduces floral ingredients by one, Catalysis by another one. The note is rewritten to fit on a single page.
+							</description>
+							<image path="Fomod\screenshots.jpg"/>
+							<files>
+								<folder source="Healing Poultice" destination=""/>
 							</files>
 							<typeDescriptor>
 								<type name="Optional"/>
