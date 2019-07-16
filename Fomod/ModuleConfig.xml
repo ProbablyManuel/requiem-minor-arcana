@@ -35,6 +35,16 @@
 								<type name="Optional"/>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="Civil War">
+							<description>All Civil War related actors are updated with perks, tempered equipment, classes and combat styles to stop falling like flies. These aren't just NPC edits, but a complete and comprehensive Civil War overhaul for Requiem.
+							</description>
+							<files>
+								<folder source="Civil War" destination=""/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
 					</plugins>
 				</group>
 			</optionalFileGroups>
