@@ -9,7 +9,7 @@
 							<description>Various indispensable roleplaying improvements.
 							</description>
 							<files>
-								<folder source="Roleplaying Improvements" destination=""/>
+								<folder source="Roleplaying" destination=""/>
 							</files>
 							<typeDescriptor>
 								<type name="Optional"/>
