@@ -15,16 +15,6 @@
 								<type name="Optional"/>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="Healing Poultice">
-							<description>Healing poultices can be made with mead as well. Alchemy level 30 or greater reduces floral ingredients by one, Catalysis by another one. The note is rewritten to fit on a single page.
-							</description>
-							<files>
-								<folder source="Healing Poultice" destination=""/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
 						<plugin name="Forsworn">
 							<description>The Forsworn are overhauled to be the fearsome guerrillas everyone in the Reach is talking about. Trained to endure hardships while wearing only animal hides, they develop an intrinsic damage resistance and their magics are related to Hircine and the rest of "the old gods". Better combat tactics, tempered equipment, improved perks and variable looks will make the Forsworn an enjoyable high level enemy.
 							</description>
