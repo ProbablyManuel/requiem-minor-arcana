@@ -3,7 +3,8 @@ Loose files are packed into a bsa and version numbers are added."""
 import config
 import logging
 import release
-import shutil
+
+bsa_exclude = ["Roleplaying"]
 
 logger = logging.getLogger(release.__name__)
 logger.setLevel(logging.INFO)
@@ -20,6 +21,7 @@ try:
                           temp_alt=config.DIR_TEMP_ALT,
                           arch_exe=config.ARCH_EXE_LE,
                           arch_flags=flags,
+                          bsa_exclude=bsa_exclude,
                           warn_readmes=False)
 except Exception as error:
     logger.exception(error)
