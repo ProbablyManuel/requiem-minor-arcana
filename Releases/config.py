@@ -7,6 +7,9 @@ DIR_REPO = "C:\\Users\\user\\Documents\\GitHub\\requiem-minor-arcana"
 DIR_REPO_LE = DIR_REPO
 """Directory where all mod files for Legendary Edition are stored."""
 
+DIR_VER = "C:\\Users\\user\\Documents\\Skyrim Tools\\Mod Organizer\\mods\\RMA Release"
+"""Directory where version number is manually added to plugins."""
+
 DIR_TEMP_ALT = "C:\\Windows\\Temp"
 """Directory where temporary files can be stored.
 The path must not contain a directory that ends with "Data"."""

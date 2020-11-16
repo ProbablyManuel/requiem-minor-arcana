@@ -18,9 +18,9 @@ try:
     flags.check_retain_directory_names = True
     flags.check_retain_file_names = True
     release.build_release(dir_src=config.DIR_REPO_LE,
+                          dir_ver=config.DIR_VER,
                           temp_alt=config.DIR_TEMP_ALT,
                           arch_exe=config.ARCH_EXE_LE,
-                          arch_flags=flags,
                           bsa_exclude=bsa_exclude,
                           warn_readmes=False)
 except Exception as error:
