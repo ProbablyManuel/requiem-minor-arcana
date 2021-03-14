@@ -13,14 +13,11 @@ handler = logging.FileHandler("{}.log".format(release.__name__), "w")
 handler.setFormatter(formatter)
 logger.addHandler(handler)
 try:
-    flags = release.ArchiveFlags()
-    flags.check_misc = True
-    flags.check_retain_directory_names = True
-    flags.check_retain_file_names = True
-    release.build_release(dir_src=config.DIR_REPO_LE,
+    release.build_release(dir_src=config.DIR_REPO,
                           dir_ver=config.DIR_VER,
-                          temp_alt=config.DIR_TEMP_ALT,
-                          arch_exe=config.ARCH_EXE_LE,
+                          bsarch=config.BSARCH,
+                          bsa_format="tes5",
+                          bsa_compress=True,
                           bsa_exclude=bsa_exclude,
                           warn_readmes=False)
 except Exception as error:
