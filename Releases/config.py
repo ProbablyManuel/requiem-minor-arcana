@@ -3,7 +3,7 @@
 DIR_REPO = "C:\\Users\\user\\Documents\\GitHub\\requiem-minor-arcana"
 """Directory where the git repository for Requiem - Minor Arcana is stored."""
 
-DIR_VER = "C:\\Skyrim Tools\\Mod Organizer\\mods\\RMA Release"
+DIR_VER = "C:\\Skyrim Tools\\Mod Organizer SSE\\mods\\RMA Release"
 """Directory where version number is manually added to plugins."""
 
 BSARCH = "C:\\Skyrim Tools\\BSArch\\bsarch.exe"
