@@ -4,8 +4,6 @@ import config
 import logging
 import release
 
-bsa_exclude = ["Roleplaying"]
-
 logger = logging.getLogger(release.__name__)
 logger.setLevel(logging.INFO)
 formatter = logging.Formatter("%(asctime)s %(levelname)s %(message)s")
@@ -16,9 +14,8 @@ try:
     release.build_release(dir_src=config.DIR_REPO,
                           dir_ver=config.DIR_VER,
                           bsarch=config.BSARCH,
-                          bsa_format="tes5",
+                          bsa_format="sse",
                           bsa_compress=True,
-                          bsa_exclude=bsa_exclude,
                           warn_readmes=False)
 except Exception as error:
     logger.exception(error)
