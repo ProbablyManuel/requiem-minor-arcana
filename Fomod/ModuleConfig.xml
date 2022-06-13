@@ -35,16 +35,6 @@
 								<type name="Optional"/>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="Vigilants of Stendarr">
-							<description>The Vigilants of Stendarr are now real daedra hunters instead of being daedra food. Using actor variations, tempered equipment and a perk-set that is well focused on their specialization, they can sometimes beat even the toughest daedra. They are not too effective against vampires though for lore-based compatibility with Dawnguard.
-							</description>
-							<files>
-								<folder source="Vigilants of Stendarr" destination=""/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
 					</plugins>
 				</group>
 			</optionalFileGroups>
